@@ -1,0 +1,20 @@
+{
+    "name": "TeaSpoons.AddressablesToolbox.Editor",
+    "rootNamespace": "TeaSpoons.AddressablesToolbox.Editor",
+    "references": [
+        "TeaSpoons.AddressablesToolbox",
+        "Unity.Addressables",
+        "TeaSpoons.PackageCore.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

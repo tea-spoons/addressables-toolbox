@@ -1,0 +1,26 @@
+{
+  "name": "TeaSpoons.AddressablesToolbox.Tests",
+  "rootNamespace": "TeaSpoons.AddressablesToolbox.Tests",
+  "references": [
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner",
+    "TeaSpoons.AddressablesToolbox",
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+    "Unity.Addressables.Editor"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS",
+    "UNITY_EDITOR"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
