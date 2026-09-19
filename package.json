@@ -1,12 +1,10 @@
 {
   "name": "com.tea-spoons.addressables-toolbox",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "displayName": "Addressables Toolbox",
   "description": "A collection of handy additions to the Addressables system.",
   "unity": "6000.0",
   "dependencies": {
-    "com.unity.addressables": "2.2.2",
-    "com.cysharp.unitask": "2.5.0",
     "com.tea-spoons.package-core": "1.2.0"
   },
   "author": {

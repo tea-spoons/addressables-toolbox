@@ -19,8 +19,21 @@
   "autoReferenced": false,
   "defineConstraints": [
     "UNITY_INCLUDE_TESTS",
-    "UNITY_EDITOR"
+    "UNITY_EDITOR",
+    "ADDRESSABLES",
+    "UNITASK"
   ],
-  "versionDefines": [],
+  "versionDefines": [
+    {
+      "name": "com.unity.addressables",
+      "expression": "2.2.2",
+      "define": "ADDRESSABLES"
+    },
+    {
+      "name": "com.cysharp.unitask",
+      "expression": "2.5.0",
+      "define": "UNITASK"
+    }
+  ],
   "noEngineReferences": false
 }

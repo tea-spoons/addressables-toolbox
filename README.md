@@ -16,7 +16,7 @@ In Unity: **Window > Package Manager > + > Add package from git URL**, then ente
 https://github.com/tea-spoons/addressables-toolbox.git
 ```
 
-Pin a release by appending a tag, for example `#v0.5.0`.
+Pin a release by appending a tag, for example `#v0.6.0`.
 
 ### Dependencies
 
@@ -25,6 +25,16 @@ Unity cannot resolve git dependencies automatically, so add these to your projec
 - `com.unity.addressables` 2.2.2
 - `com.cysharp.unitask` 2.5.0
 - `com.tea-spoons.package-core` 1.2.0
+
+## Optional packages
+
+This package works on its own. It uses the packages below when your project has them (Unity detects them automatically) and simply leaves the related code out when it does not.
+
+| Package | Used for |
+|---|---|
+| Addressables (`com.unity.addressables` 2.2.2+) | The whole package. Without it nothing is compiled. |
+| UniTask (`com.cysharp.unitask` 2.5.0+) | The whole package (loading is asynchronous through UniTask). Without it nothing is compiled. |
+| uGUI (`com.unity.ugui`) | `ImageExtensions`. |
 
 ## Change plan
 

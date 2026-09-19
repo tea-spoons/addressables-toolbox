@@ -13,10 +13,11 @@ Originally developed at Bigpoint. Published here with Bigpoint's permission for 
 - Added `LICENSE.md` (PolyForm Noncommercial 1.0.0), an install section in the README, and package metadata (author, license and documentation URLs).
 - Replaced `ComponentReference` with a new implementation written from Unity's public Addressables API. The earlier version was based on a Unity sample without a stated license.
 - Added PlayMode tests (`Tests/PlayMode`) that run `ComponentReference` against real Addressables: loading, the missing-component failure, release and reload, and editor validation.
+- Made standalone: no longer declares Addressables or UniTask as dependencies. Without both installed the package compiles to nothing; `ImageExtensions` also needs uGUI.
 
 ## Planned changes
 
-- [ ] Tag and publish `v0.5.0` with the Release workflow.
+- [ ] Tag and publish `v0.6.0` with the Release workflow.
 - [ ] Run this package's tests in CI with `unity-ci-kit` (needs a small test-project helper in the kit).
 - [ ] Make installs resolve dependencies automatically, for example through a registry such as OpenUPM.
 - [ ] Consider `InstantiateAsync` helpers on `ComponentReference` (no package needs them today).

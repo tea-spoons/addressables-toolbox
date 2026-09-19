@@ -1,19 +1,38 @@
 {
-    "name": "TeaSpoons.AddressablesToolbox",
-    "rootNamespace": "TeaSpoons.AddressablesToolbox",
-    "references": [
-        "GUID:9e24947de15b9834991c9d8411ea37cf",
-        "GUID:84651a3751eca9349aac36a66bba901b",
-        "GUID:f51ebe6a0ceec4240a699833d6309b23",
-        "GUID:593a5b492d29ac6448b1ebf7f035ef33"
-    ],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [],
-    "noEngineReferences": false
+  "name": "TeaSpoons.AddressablesToolbox",
+  "rootNamespace": "TeaSpoons.AddressablesToolbox",
+  "references": [
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+    "UniTask",
+    "UniTask.Addressables"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "ADDRESSABLES",
+    "UNITASK"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.addressables",
+      "expression": "2.2.2",
+      "define": "ADDRESSABLES"
+    },
+    {
+      "name": "com.cysharp.unitask",
+      "expression": "2.5.0",
+      "define": "UNITASK"
+    },
+    {
+      "name": "com.unity.ugui",
+      "expression": "1.0.0",
+      "define": "UGUI"
+    }
+  ],
+  "noEngineReferences": false
 }

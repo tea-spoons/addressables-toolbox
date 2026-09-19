@@ -1,3 +1,4 @@
+#if UGUI
 namespace TeaSpoons.AddressablesToolbox
 {
     using Cysharp.Threading.Tasks;
@@ -31,3 +32,4 @@ namespace TeaSpoons.AddressablesToolbox
         }
     }
 }
+#endif
